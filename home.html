@@ -41,23 +41,41 @@
 
     <div class="container">
         <div class="row">
-        <div class="col-sm-8 mt-3">
-               
-                    
-                    <h1 class="border-bottom">Latitude vs. X</h1>
-                    <img src="/images/cat.JPG" alt="bio picture">
-                
-                    <p>PROJECT DEETS</p>
-        </div>
-        <div class="col-sm-4 mt-3">
-            
+            <div class="col-sm-8">
+                <h1 class="border-bottom">Latitude vs. X</h1>
+            </div>
+            <div class="col-sm-4">
                 <h1 class="border-bottom">Visualizations</h1>
-            
-                <img src="\Fig1.png" alt="Fig1">
-                <img src="/images/Fig2.png" alt="Fig2">
-                <img src="/images/Fig3.png" class="img-fluid" alt="Fig3">
-                <img src= "/images/Fig4.png" class="img-fluid" alt="Fig4">
-        
         </div>
+        <div class="row">
+            <div class="col-sm-8">
+                    <p>The purpose of this project was to visualize the weather of 500+ cities across the world of varying distance from the equator. Python and the OpenWeatherMap API were utilized to create a representative model of weather across world cities.</p>
+                    <p> We randomly selected at least 500 unique (non-repeat) cities based on latitude and longitude, and performed a weather check on each of the cities using a series of successive API calls.</p>
+                    <p>A series of scatter plots were made to showcase the following relationships:</p>
+            </div>
+            <div class="col-sm-2">
+                <a href="./temperature.html"><img src="Fig1.png" class="img-fluid" alt="Fig1"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="./humidity.html"><img src="Fig2.png" class="img-fluid" alt="Fig2"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <u1>
+                    <li>Temperature (F) vs. Latitude</li>
+                    <li>Humidity (%) vs. Latitude</li>
+                    <li>Cloudiness (%) vs. Latitude</li>
+                    <li>Wind Speed (mph) vs. Latitude</li>
+                </u1>
+            </div>
+            <div class="col-sm-2">
+                <a href="./cloudiness.html"><img src="Fig3.png" class="img-fluid" alt="Fig3"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="./wind.html"><img src= "Fig4.png" class="img-fluid" alt="Fig4"></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
